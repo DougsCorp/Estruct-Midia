@@ -35,3 +35,16 @@ $(function () {
 
 });
 
+function regressiva(){
+var segundos = 15;
+    setInterval( function(){
+        document.getElementById("seg").innerHTML = segundos;
+        segundos --;
+    }, 1000);
+
+    setTimeout(function(){
+        window.location.href = "../index.html";
+    }, 15000);
+};
+
+
