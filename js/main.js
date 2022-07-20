@@ -43,7 +43,7 @@ var segundos = 15;
     }, 1000);
 
     setTimeout(function(){
-        window.location.href = "../index.html";
+        window.location.href = "../index.html#contact";
     }, 15000);
 };
 
